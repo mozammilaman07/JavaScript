@@ -17,3 +17,7 @@
 //     city: "Banglore"
 // };
 
+// Generate a random number
+let num = Math.random();
+num = num*10;
+num = Math.floor(num);
