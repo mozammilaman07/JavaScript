@@ -11,9 +11,9 @@
 
 // Object Literals
 
-let student = {
-    name: "Aman",
-    age: 22,
-    city: "Banglore"
-};
+// let student = {
+//     name: "Aman",
+//     age: 22,
+//     city: "Banglore"
+// };
 
