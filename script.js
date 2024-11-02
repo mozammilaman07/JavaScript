@@ -21,3 +21,7 @@
 let num = Math.random();
 num = num*10;
 num = Math.floor(num);
+num = num + 1; // for 1 to 10
+
+// shorthand for this
+let random = Math.floor(Math.random() * 10) + 1;
