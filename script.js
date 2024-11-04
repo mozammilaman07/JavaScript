@@ -25,3 +25,9 @@
 
 // // shorthand for this
 // let random = Math.floor(Math.random() * 10) + 1;
+
+let sum = function(a,b){
+    let add = a + b;
+    console.log(add);
+}
+sum(1,2);
