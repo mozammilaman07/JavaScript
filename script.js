@@ -26,8 +26,18 @@
 // // shorthand for this
 // let random = Math.floor(Math.random() * 10) + 1;
 
-let sum = function(a,b){
-    let add = a + b;
-    console.log(add);
-}
-sum(1,2);
+// let sum = function(a,b){
+//     let add = a + b;
+//     console.log(add);
+// }
+// sum(1,2);
+
+// Forms
+let form = document.querySelector("form");
+let inp = document.querySelector("input");
+
+form.addEventListener("submit",function(event){
+    event.preventDefault();
+    alert(`Hi ${inp.value} Welcome to Facebook!`);
+
+});
